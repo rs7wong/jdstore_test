@@ -6252,7 +6252,11 @@ button.close {
 }
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
+  display: block;
+  height: auto;
+  max-width: 100%;
   line-height: 1;
+  width: 100%; 
 }
 @media all and (transform-3d), (-webkit-transform-3d) {
   .carousel-inner > .item {
