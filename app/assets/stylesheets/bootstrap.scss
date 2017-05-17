@@ -1090,7 +1090,7 @@ body {
   font-size: 13px;
   line-height: 1.846;
   color: #101846;
-  background-color: #ffffff;
+  background-color: #edbdb5;
 }
 input,
 button,
@@ -1218,7 +1218,7 @@ h6 .small,
 .h6 .small {
   font-weight: normal;
   line-height: 1;
-  color: #bbbbbb;
+  color: #aaaaaa;
 }
 h1,
 .h1,
@@ -1338,7 +1338,7 @@ mark,
   text-transform: capitalize;
 }
 .text-muted {
-  color: #bbbbbb;
+  color: #aaaaaa;
 }
 .text-primary {
   color: #101846;
@@ -1472,7 +1472,7 @@ dd {
 abbr[title],
 abbr[data-original-title] {
   cursor: help;
-  border-bottom: 1px dotted #bbbbbb;
+  border-bottom: 1px dotted #aaaaaa;
 }
 .initialism {
   font-size: 90%;
@@ -1495,7 +1495,7 @@ blockquote .small {
   display: block;
   font-size: 80%;
   line-height: 1.846;
-  color: #bbbbbb;
+  color: #aaaaaa;
 }
 blockquote footer:before,
 blockquote small:before,
@@ -2258,7 +2258,7 @@ table {
 caption {
   padding-top: 8px;
   padding-bottom: 8px;
-  color: #bbbbbb;
+  color: #aaaaaa;
   text-align: left;
 }
 th {
@@ -2575,14 +2575,14 @@ output {
   box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
 }
 .form-control::-moz-placeholder {
-  color: #bbbbbb;
+  color: #aaaaaa;
   opacity: 1;
 }
 .form-control:-ms-input-placeholder {
-  color: #bbbbbb;
+  color: #aaaaaa;
 }
 .form-control::-webkit-input-placeholder {
-  color: #bbbbbb;
+  color: #aaaaaa;
 }
 .form-control::-ms-expand {
   border: 0;
@@ -3432,7 +3432,7 @@ fieldset[disabled] .btn-link {
 fieldset[disabled] .btn-link:hover,
 .btn-link[disabled]:focus,
 fieldset[disabled] .btn-link:focus {
-  color: #bbbbbb;
+  color: #aaaaaa;
   text-decoration: none;
 }
 .btn-lg,
@@ -3579,7 +3579,7 @@ tbody.collapse.in {
 .dropdown-menu > .disabled > a,
 .dropdown-menu > .disabled > a:hover,
 .dropdown-menu > .disabled > a:focus {
-  color: #bbbbbb;
+  color: #aaaaaa;
 }
 .dropdown-menu > .disabled > a:hover,
 .dropdown-menu > .disabled > a:focus {
@@ -3608,7 +3608,7 @@ tbody.collapse.in {
   padding: 3px 20px;
   font-size: 12px;
   line-height: 1.846;
-  color: #bbbbbb;
+  color: #aaaaaa;
   white-space: nowrap;
 }
 .dropdown-backdrop {
@@ -3995,11 +3995,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: #eeeeee;
 }
 .nav > li.disabled > a {
-  color: #bbbbbb;
+  color: #aaaaaa;
 }
 .nav > li.disabled > a:hover,
 .nav > li.disabled > a:focus {
-  color: #bbbbbb;
+  color: #aaaaaa;
   text-decoration: none;
   background-color: transparent;
   cursor: not-allowed;
@@ -4241,7 +4241,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .container > .navbar-collapse,
   .container-fluid > .navbar-collapse {
     margin-right: 45px;
-    margin-left: 60px;
+    margin-left: 45px;
   }
 }
 .navbar-static-top {
@@ -4497,7 +4497,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #ffffff;
+  background-color: #edbdb5;
   border-color: transparent;
 }
 .navbar-default .navbar-brand {
@@ -4509,7 +4509,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: transparent;
 }
 .navbar-default .navbar-text {
-  color: #bbbbbb;
+  color: #aaaaaa;
 }
 .navbar-default .navbar-nav > li > a {
   color: #101846;
@@ -4605,7 +4605,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   background-color: transparent;
 }
 .navbar-inverse .navbar-text {
-  color: #bbbbbb;
+  color: #aaaaaa;
 }
 .navbar-inverse .navbar-nav > li > a {
   color: #ffffff;
@@ -4710,7 +4710,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   color: #cccccc;
 }
 .breadcrumb > .active {
-  color: #bbbbbb;
+  color: #aaaaaa;
 }
 .pagination {
   display: inline-block;
@@ -4771,7 +4771,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination > .disabled > a,
 .pagination > .disabled > a:hover,
 .pagination > .disabled > a:focus {
-  color: #bbbbbb;
+  color: #aaaaaa;
   background-color: #ffffff;
   border-color: #dddddd;
   cursor: not-allowed;
@@ -4842,7 +4842,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pager .disabled > a:hover,
 .pager .disabled > a:focus,
 .pager .disabled > span {
-  color: #bbbbbb;
+  color: #aaaaaa;
   background-color: #ffffff;
   cursor: not-allowed;
 }
@@ -4872,7 +4872,7 @@ a.label:focus {
   top: -1px;
 }
 .label-default {
-  background-color: #bbbbbb;
+  background-color: #aaaaaa;
 }
 .label-default[href]:hover,
 .label-default[href]:focus {
@@ -4924,7 +4924,7 @@ a.label:focus {
   vertical-align: middle;
   white-space: nowrap;
   text-align: center;
-  background-color: #bbbbbb;
+  background-color: #aaaaaa;
   border-radius: 0;
 }
 .badge:empty {
@@ -5290,7 +5290,7 @@ button.list-group-item {
 .list-group-item.disabled:hover,
 .list-group-item.disabled:focus {
   background-color: #eeeeee;
-  color: #bbbbbb;
+  color: #aaaaaa;
   cursor: not-allowed;
 }
 .list-group-item.disabled .list-group-item-heading,
@@ -5301,7 +5301,7 @@ button.list-group-item {
 .list-group-item.disabled .list-group-item-text,
 .list-group-item.disabled:hover .list-group-item-text,
 .list-group-item.disabled:focus .list-group-item-text {
-  color: #bbbbbb;
+  color: #aaaaaa;
 }
 .list-group-item.active,
 .list-group-item.active:hover,
@@ -7320,7 +7320,7 @@ select[disabled] option,
 select.form-control[disabled] option,
 select[readonly] option,
 select.form-control[readonly] option {
-  color: #bbbbbb;
+  color: #aaaaaa;
 }
 select[multiple],
 select.form-control[multiple] {
@@ -7405,7 +7405,7 @@ input[type="radio"]:checked:before,
 input[type="radio"]:disabled:checked:before,
 .radio input[type="radio"]:disabled:checked:before,
 .radio-inline input[type="radio"]:disabled:checked:before {
-  background-color: #bbbbbb;
+  background-color: #aaaaaa;
 }
 input[type="radio"]:checked:after,
 .radio input[type="radio"]:checked:after,
@@ -7418,7 +7418,7 @@ input[type="radio"]:disabled:after,
 input[type="radio"]:disabled:checked:after,
 .radio input[type="radio"]:disabled:checked:after,
 .radio-inline input[type="radio"]:disabled:checked:after {
-  border-color: #bbbbbb;
+  border-color: #aaaaaa;
 }
 input[type="checkbox"],
 .checkbox input[type="checkbox"],
@@ -7482,12 +7482,12 @@ input[type="checkbox"]:checked:after,
 input[type="checkbox"]:disabled:after,
 .checkbox input[type="checkbox"]:disabled:after,
 .checkbox-inline input[type="checkbox"]:disabled:after {
-  border-color: #bbbbbb;
+  border-color: #aaaaaa;
 }
 input[type="checkbox"]:disabled:checked:after,
 .checkbox input[type="checkbox"]:disabled:checked:after,
 .checkbox-inline input[type="checkbox"]:disabled:checked:after {
-  background-color: #bbbbbb;
+  background-color: #aaaaaa;
   border-color: transparent;
 }
 .has-warning input:not([type=checkbox]),
@@ -7646,7 +7646,7 @@ input[type="checkbox"]:disabled:checked:after,
   padding: 15px;
 }
 .list-group-item-text {
-  color: #bbbbbb;
+  color: #aaaaaa;
 }
 .well {
   border-radius: 0px;
